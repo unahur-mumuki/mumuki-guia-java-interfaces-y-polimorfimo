@@ -4,7 +4,7 @@ layout: input_bottom
 editor: code
 type: problem
 extra_visible: false
-language: ruby
+language: wollok
 manual_evaluation: false
 choices: []
 name: 'Bailar en la cueva: tipado dinámico'
