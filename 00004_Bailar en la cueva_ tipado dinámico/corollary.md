@@ -6,6 +6,6 @@ Esto significaba que cuando `VisitaAWollok` enviaba el mensaje `iluminar()`, **e
 wollok.lang.MessageNotUnderstoodException: a Vela[] does not understand iluminar()
 ```
 
-En otras palabras: si en Wollok un objeto no cumple la interfaz que se espera de este, nuestro código recién **fallará cuando enviemos el mensaje** no implementado. Por eso decímos que Wollok valida que las cosas tengan el tipo correcto dinámicamente (durante la ejecución del programa) o, en términos más breves, que **tiene tipado dinámico**.
+En otras palabras: si en Wollok un objeto no cumple la interfaz que se espera de este, nuestro código recién **fallará cuando enviemos el mensaje** no implementado. Por eso decimos que Wollok valida que las cosas tengan el tipo correcto dinámicamente (durante la ejecución del programa) o, en términos más breves, que **tiene tipado dinámico**.
 
 ¿Y en Java?
