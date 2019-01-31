@@ -1,5 +1,3 @@
-describe "tipado dinámico" {
-  test "realizar visita a Wollok" { 
-    new VisitaAWollok().realizar()
-  }
+test "tipado dinámico realizar visita a Wollok" { 
+  new VisitaAWollok().realizar()
 }
