@@ -1,0 +1,23 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Espada
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:Escudo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Espada
+  inspection: DeclaresMethod:refuerzoOfensivo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Espada
+  inspection: DeclaresMethod:refuerzoDefensivo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Escudo
+  inspection: DeclaresMethod:refuerzoOfensivo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Escudo
+  inspection: DeclaresMethod:refuerzoDefensivo
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Not:DeclaresAttribute:*

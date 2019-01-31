@@ -1,0 +1,1 @@
+¡Ojo :eyes:! Las ballestas no tienen potencial defensivo, pero tienen que implementar la interfaz `Arma`. ¿Qué podrías hacer?

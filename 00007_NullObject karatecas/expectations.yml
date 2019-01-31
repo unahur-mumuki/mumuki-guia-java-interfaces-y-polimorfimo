@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Not:DeclaresInterface:Arma
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: DeclaresClass:ManoDesnuda
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: ManoDesnuda
+  inspection: Implements:Arma

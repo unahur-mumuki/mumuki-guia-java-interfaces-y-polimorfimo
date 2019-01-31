@@ -1,0 +1,22 @@
+---
+tags: []
+layout: input_bottom
+editor: multiple_choice
+type: problem
+extra_visible: false
+language: text
+manual_evaluation: false
+choices:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Tiranosaurio jason = new Tiranosaurio();
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Dinosaurio jason = new Tiranosaurio();
+  checked: true
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Velociraptor jason = new Tiranosaurio();
+  checked: false
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  value: Tiranosaurio riley = new Velociraptor();
+  checked: false
+name: Sobre dinosaurios y múltiples tipos
