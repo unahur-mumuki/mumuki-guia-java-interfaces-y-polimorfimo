@@ -1,6 +1,6 @@
 Hagamos una pausa para visitar (con una linterna :flashlight: en la mano) a nuestro buen amigo Wollok <i class="da da-wollok"></i>, que se internó en una oscura cueva. 
 
-Miremos un momento el código que está en el editor. Está bastante claro que si en `VisitaARuby.realizar()` hacemos `laCueva.entrarCon(new Linterna())`, todo andará perfectamente. Pero, ¿qué sucede si hacemos `laCueva.entrarCon(new Vela())`?
+Miremos un momento el código que está en el editor. Está bastante claro que si en `VisitaAWollok.realizar()` hacemos `laCueva.entrarCon(new Linterna())`, todo andará perfectamente. Pero, ¿qué sucede si hacemos `laCueva.entrarCon(new Vela())`?
 
 > Probalo vos mismo: 
 > 
