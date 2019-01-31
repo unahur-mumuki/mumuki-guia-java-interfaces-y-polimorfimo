@@ -11,7 +11,7 @@ class Vela {
 }
 
 class Cueva {
-  method entrar_con(iluminador)  {
+  method entrarCon(iluminador)  {
     iluminador.iluminar()
     self.proyectarSombrasTerrorificas()
   }
@@ -22,7 +22,7 @@ class Cueva {
 
 class VisitaAWollok {
   method realizar() {
-    laCueva = new Cueva()
+    const laCueva = new Cueva()
     laCueva.entrarCon(new Vela())
   }
 }
